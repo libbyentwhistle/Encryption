@@ -1,6 +1,8 @@
 # Encryption
 A workthrough of encryption work in python
 
+## Simple Encryption
+
 The simple encryption file is based off an example from https://www.codementor.io/python/tutorial/python-encryption-message-in-python-via-reverse-cipher.
 The simple encryption can be accessed here: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13oFog866ZGBxyNTXaFpecZ9_Zb8l7SM-#scrollTo=0WCS2h9w_kgD)
@@ -16,6 +18,8 @@ Input: Blue
 
 Output: eulB
 
+## Caesar Cipher
+
 The second file, the **Caesar Cipher** is based off of this example from: https://medium.com/@Operaho/make-a-caesars-cipher-with-python-8958ffa1e90d. 
 The Caesar cipher can be accessed here: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I8anDUiN3je9II2CsXWHUthVsJnnitg6) . 
@@ -23,6 +27,8 @@ If you rerun the code you will be able to encrypt your own message!
 
 A caesar cipher shifts all letters in the message by a key. For example to encrypt the word "green" with a key of 5 would become: 
       lwjjs
+
+## Combined Cipher
 
 The third file, the **Combined Cipher** is a combination of the Caesar cipher and the reverse cipher. 
 The combined cipher can be accessed here: 
