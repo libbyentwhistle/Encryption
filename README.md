@@ -1,5 +1,5 @@
 # Encryption
-A workthrough of encryption work in python
+A workthrough of encryption work in python by using a simple (reverse encryption), caesar cipher and a combination of the two. 
 
 ## Simple Encryption
 
