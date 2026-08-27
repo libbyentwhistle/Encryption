@@ -23,3 +23,12 @@ If you rerun the code you will be able to encrypt your own message!
 
 A caesar cipher shifts all letters in the message by a key. For example to encrypt the word "green" with a key of 5 would become: 
       lwjjs
+
+The third file, the **Combined Cipher** is a combination of the Caesar cipher and the reverse cipher. 
+The combined cipher can be accessed here: 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xoO40lPgfDB__hJgXP90MPL8tzNNp1Ai#scrollTo=PuGoVo11sEZC) .
+If you rerun the code you will be able to encrypt your own message!
+
+The Combined Cipher works by first doing a Caesar cipher on the message, and then doing a reverse cipher on the message after it has been encrypted by the Caesar cipger. 
+
+For example if red was to be encrypted with a key of 24 the final answer would be: **bcp**
