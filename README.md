@@ -59,3 +59,9 @@ As you can see, the code is almost identical to the simple encryption.
 The code to access the code to decrypt when the key is used can be accessed here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JXgOgtA6Y1E6PewjxAqtYQI737az9Smx) .
 
 As you can see the code to decrypt is very similar to the code to encrypt using a Caesar cipher, however instead of + the key to the alphabet, we - the key to the alphabet. 
+
+#### Key Unknown
+
+The code can be accessed here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EE3NqMSDbY-iwKPCjSPWQ0Wtj14Jrhfp#scrollTo=m4gxT7rncElU) .
+
+This code uses brute force to determine what the original message was before it was encrypted. This means it will use every key possible and prints out every possible answer. Only one solution is in readable English, and thus must be the original message. 
