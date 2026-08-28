@@ -1,7 +1,9 @@
-# Encryption
+# Encryption and Decryption
 A workthrough of encryption work in python by using a simple (reverse encryption), caesar cipher and a combination of the two. 
 
-## Simple Encryption
+## Encryption
+
+### Simple Encryption
 
 The simple encryption file is based off an example from https://www.codementor.io/python/tutorial/python-encryption-message-in-python-via-reverse-cipher.
 The simple encryption can be accessed here: 
@@ -18,7 +20,7 @@ Input: Blue
 
 Output: eulB
 
-## Caesar Cipher
+### Caesar Cipher
 
 The second file, the **Caesar Cipher** is based off of this example from: https://medium.com/@Operaho/make-a-caesars-cipher-with-python-8958ffa1e90d. 
 The Caesar cipher can be accessed here: 
@@ -28,7 +30,7 @@ If you rerun the code you will be able to encrypt your own message!
 A caesar cipher shifts all letters in the message by a key. For example to encrypt the word "green" with a key of 5 would become: 
       lwjjs
 
-## Combined Cipher
+### Combined Cipher
 
 The third file, the **Combined Cipher** is a combination of the Caesar cipher and the reverse cipher. 
 The combined cipher can be accessed here: 
@@ -38,3 +40,13 @@ If you rerun the code you will be able to encrypt your own message!
 The Combined Cipher works by first doing a Caesar cipher on the message, and then doing a reverse cipher on the message after it has been encrypted by the Caesar cipger. 
 
 For example if red was to be encrypted with a key of 24 the final answer would be: **bcp**
+
+
+## Decryption
+
+### Simple Decryption
+
+The code to access the simple decryption can be accessed here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1m9rdPY4bl3o0ychEP6zrM2YwM3FnbFCD#scrollTo=k84zWtXL7yF_) .
+If you rerun the code, you will be able to decrypt your own encrypted message!
+
+As you can see, the code is almost identical to the simple encryption. 
