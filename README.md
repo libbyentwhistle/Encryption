@@ -1,5 +1,5 @@
 # Encryption and Decryption
-A workthrough of encryption work in python by using a simple (reverse encryption), caesar cipher and a combination of the two. 
+A walkthrough of encryption work in python by using a simple (reverse encryption), caesar cipher and a combination of the two. There is also decryption included, the reverse process of encryption. 
 
 ## Encryption
 
@@ -37,7 +37,7 @@ The combined cipher can be accessed here:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xoO40lPgfDB__hJgXP90MPL8tzNNp1Ai#scrollTo=PuGoVo11sEZC) .
 If you rerun the code you will be able to encrypt your own message!
 
-The Combined Cipher works by first doing a Caesar cipher on the message, and then doing a reverse cipher on the message after it has been encrypted by the Caesar cipger. 
+The Combined Cipher works by first doing a Caesar cipher on the message, and then doing a reverse cipher on the message after it has been encrypted by the Caesar cipher. 
 
 For example if red was to be encrypted with a key of 24 the final answer would be: **bcp**
 
@@ -58,7 +58,7 @@ As you can see, the code is almost identical to the simple encryption.
 
 The code to access the code to decrypt when the key is used can be accessed here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JXgOgtA6Y1E6PewjxAqtYQI737az9Smx) .
 
-As you can see the code to decrypt is very similar to the code to encrypt using a Caesar cipher, however instead of + the key to the alphabet, we - the key to the alphabet. 
+As you can see the code to decrypt is very similar to the code to encrypt using a Caesar cipher, however instead of moving forwards through the alphabet by the key, we move backwards through the alphabet by the key in order to determine the origanl message.
 
 #### Key Unknown
 
