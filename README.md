@@ -65,3 +65,10 @@ As you can see the code to decrypt is very similar to the code to encrypt using 
 The code can be accessed here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EE3NqMSDbY-iwKPCjSPWQ0Wtj14Jrhfp#scrollTo=m4gxT7rncElU) .
 
 This code uses brute force to determine what the original message was before it was encrypted. This means it will use every key possible and prints out every possible answer. Only one solution is in readable English, and thus must be the original message. 
+
+### Combined Decryption
+
+The combined decryption can be accessed here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iV47gYw9CqNIAtnTkxvwAjAvKsLN-F_9) .
+
+This combines the reverse cipher and the Caeser cipher. When the combined cipher was coded the Caeser cipher was done before reversing the cipher, so when we decipher it the steps are done in reverse, first the encrypted message is reversed and then brute forced in order to reveal the original message. 
+
